@@ -45,3 +45,10 @@
 - (ln recipes.txt newrecipes.txt) - Creating a hard link
 - Soft links are different. They are more powerful as you can link to other filesystems and to directories but when the original is removed, the link will be broken
 - (ln -s recipes.txt newrecipes.txt) - Creating a soft link
+## gzip
+- Used for compressing a file
+- (gzip filename) - This will compress the file and append the .gz extension to it and the original file is deleted. To prevent this, use the -c option and use the output redirection to write the output to the filename.gz file. ( gzip -c filename > filename.gz)
+- (gzip -d filename.gz) - Decompressing the file
+## gunzip
+- Basically the equivalent of gzip only that when decompressing, no need for adding the -d
+
