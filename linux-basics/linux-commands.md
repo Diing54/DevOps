@@ -51,4 +51,16 @@
 - (gzip -d filename.gz) - Decompressing the file
 ## gunzip
 - Basically the equivalent of gzip only that when decompressing, no need for adding the -d
-
+## tar
+- Used to create an archive, grouping multiple files in a single file
+- (tar -cf archive.tar file1 file2) - Creates an archive named archive.tar with the content of file1 file2
+- (tar -xf archive.tar) - Extract files from an archive in the current folder
+## alias 
+- This is like creating a new command to mimic an existing command so that you dont use the existing command according to your preferences
+- (alias ll = 'ls -al') - Creating a new command 'll' that is an alias to 'ls -al'
+- (alias) - will list all the aliases defined
+- The alias will work until the terminal sessions is closed
+- To make it permanent, add it to the shell configuration
+## tail
+- Opens the file at the end and watches for file changes
+- Great for watching log files ( tail -f /var/log/system.log )
