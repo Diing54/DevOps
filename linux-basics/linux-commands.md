@@ -21,4 +21,27 @@
 ## cp 
 - Used to copy a file
 - To copy folders, you need to add the -r to recursively copy the whole folder contents (cp -r fruits people)
-
+## touch 
+- Used to create an empty file eg touch apple
+## open
+- Used to open a directory 
+- (open .) - opens the current directory
+- Can also be used to open an application
+## find
+- The find command can be used to find files or folders matching a particular search pattern. It searches recursively
+- (find . -name '*.js') - Find all files under the current tree that have the .js extension and print the relative path of each file that matches
+- (find . -type d name src) - Find directories under the current tree matching the name 'src'
+- (find folder 1 folder 2 -name filename.txt) - Searching under multiple root trees
+- (find . -type d -name node_modules -or -name public) - Find directories under the current tree matching the name 'node_modules' or 'public'
+- (find . -type d -name '*.md' -not -path 'node_modules/*') - excluding a path
+- (find . -type f -size +100c) - Searching files that have more than 100 characters(bytes) in them
+- (find . -type f -size +100k -size -1M) - Searching files bigger tha 100KB but smaller than 1MB
+- (find . -type f -mtime +3) - Searching files edited more that 3 days ago
+- (find . -type f -mtime -1) - Searching files edited in the last 24 hrs
+## ln
+- Used to create links(Pointer to another file)
+- There are two types of links(hard links and soft links
+- Hard links are rarely used. You cant link to directories and external filesystems
+- (ln recipes.txt newrecipes.txt) - Creating a hard link
+- Soft links are different. They are more powerful as you can link to other filesystems and to directories but when the original is removed, the link will be broken
+- (ln -s recipes.txt newrecipes.txt) - Creating a soft link
