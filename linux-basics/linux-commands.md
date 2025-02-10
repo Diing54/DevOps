@@ -64,3 +64,17 @@
 ## tail
 - Opens the file at the end and watches for file changes
 - Great for watching log files ( tail -f /var/log/system.log )
+## grep
+- Used to search in lines or can be combined with pipes to filter the output of another command
+- (grep "error" logfile.txt) - Finds and prints all lines in logfile.txt containing the word "error"
+- (grep "hello" file1.txt file2.txt) - Searches for "hello" in both files
+- You can use -i to ignore case sensitivity
+- (grep -i "error" logfile.txt) - Finds "Error", "error" ,etc
+- Can also be used in searching in the output of another command as shown in the next line
+- ps aux | grep "firefox"
+- (grep -v "error" logfile.txt) - Inverting the search ie exclude all lines that contain the pattern
+- (grep -n "command" logfile.txt) - Shows the line numbers where "command" has appeared
+- (grep -c "error" logfile.txt) - counts the number of lines containing "error"
+- (grep "^hello" file.txt) - search for lines that start with "hello"
+- (grep "done$" file.txt) - search for files that end with "done"
+- 
