@@ -77,4 +77,8 @@
 - (grep -c "error" logfile.txt) - counts the number of lines containing "error"
 - (grep "^hello" file.txt) - search for lines that start with "hello"
 - (grep "done$" file.txt) - search for files that end with "done"
-- 
+## sort
+- Used in sorting elements in a file
+- (sort -r filename.txt) - Reverses the order of sorting
+- Can work with pipes,i.e you can use it on the output of another command ls | sort
+
