@@ -81,13 +81,13 @@
 - Used in sorting elements in a file
 - (sort -r filename.txt) - Reverses the order of sorting
 - Can work with pipes,i.e you can use it on the output of another command ls | sort
-##echo
+## echo
 - echo "Hello world" - prints a simple messsage
 - name="John", echo "Hello $name" - This will print the value of variable
 - echo "Hello, file" > output.txt - This will direct the output to a file but will override the contents of that file
 - echo "Hello file" >> output.txt - This will append or add another line at the end of output.txt
 - echo "Today is $(date) - Using echo with other commands
-##chown
+## chown
 - Every file/directory in linux has an owner
 - This command is used to change the owner of the file or directory
 - The owner of a directory/ file or the root user are eligible to use this command
