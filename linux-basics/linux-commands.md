@@ -115,3 +115,16 @@ drwxrwxr-x  2 astro astro 4096 Feb 13 12:39 linux-basics
 - If either of the rwx values is swapped with - ,that means that person lacks the swapped permission eg :
 - r-x means the person has read and execute permission but lacks the write permission
 - You can change the permissions using the chmod command 
+- Changing permissions using numeric notation discussed below :  
+Each Permission has a numeric value :  
+r = 4  
+w = 2  
+x  = 1  
+- chmod 755 file.txt - This command sets the owner : rwx (7), Group r-x (5) and others r-x (5)
+- Changing the permissions using symbolic notation as shown below :  
+u = Owner  
+g = Group  
+o = Others
+- chmod u+w file.txt - This adds the write permission to the Owner
+- chmod g-x file.txt - This removes the execute permission from the group
+- chmod o+r file.txt - This adds the read permission for others
