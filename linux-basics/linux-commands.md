@@ -98,8 +98,8 @@
 ## chmod
 - Used to change the permissions of a file
 - Every file has 3 permissions (read, write and execute)
-- For example if a go into a directory and run ls -al, the following is displayed
-- drwxrwxr-x  4 astro astro 4096 Feb  9 11:33 .  
+- For example if a go into a directory and run ls -al, the following is displayed :  
+drwxrwxr-x  4 astro astro 4096 Feb  9 11:33 .  
 drwxr-x--- 31 astro astro 4096 Feb 12 14:50 ..  
 drwxrwxr-x  8 astro astro 4096 Feb 13 12:32 .git  
 drwxrwxr-x  2 astro astro 4096 Feb 13 12:39 linux-basics  
