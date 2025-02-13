@@ -95,3 +95,23 @@
 - chown -R <owner> <file> - Changing the ownership of a directory and all other files in it.
 - chown <owner>:<group> <file> - Through this command,I can simulataneousy change the owner and the group of the file
 - chgrp <group> <file> - Directly changing the group of the file
+## chmod
+- Used to change the permissions of a file
+- Every file has 3 permissions (read, write and execute)
+- For example if a go into a directory and run ls -al, the following is displayed
+- drwxrwxr-x  4 astro astro 4096 Feb  9 11:33 .
+drwxr-x--- 31 astro astro 4096 Feb 12 14:50 ..
+drwxrwxr-x  8 astro astro 4096 Feb 13 12:32 .git
+drwxrwxr-x  2 astro astro 4096 Feb 13 12:39 linux-basics
+-rw-rw-r--  1 astro astro  163 Feb  9 11:32 README.md
+- The letters and hyphens you see at the start of every file/folder are the permissions given of the file/folder
+- (-) means its a normal file
+- (d) means its a directory
+- (l) means its a link
+- After that, the first 3 values eg rwx represents the permissions of the owner of the file/directory
+- The next 3 values eg r-x  represents the permissions of the group of the file
+- The last 3 values eg --- represents the permissions of the other members or everyone else that comes across the file
+- rwx means that person has read, write and execute permissions of the file/directory
+- If either of the rwx values is swapped with - ,that means that person lacks the swapped permission eg :
+- r-x means the person has read and execute permission but lacks the write permission
+- You can change the permissions using the chmod command 
