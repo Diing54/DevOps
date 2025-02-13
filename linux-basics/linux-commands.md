@@ -128,3 +128,21 @@ o = Others
 - chmod u+w file.txt - This adds the write permission to the Owner
 - chmod g-x file.txt - This removes the execute permission from the group
 - chmod o+r file.txt - This adds the read permission for others
+## du
+- This command will calculate the size of a directory as a whole
+- du * - This will calculate the size of each file individually
+- du -m - Displaying the size in Megabytes
+- du -g - Displaying the size in Gigabytes
+- du -ah - -a wil print the size of each file, -h will show a human readable notation for sizes
+## df
+- Used to get disk usage information
+- Its basic form will print information about volumes mounted 
+- df -h will show the values in human readable format
+## ps
+- Used to inspect processes that are running on your machine
+- ps ax - "a" will list other users' processes apart from yours and "x" will show other processes not linked to any terminal
+- You can search for a specific process combining grep with a pipe as shown below :  
+ps ax | grep -i "tensorflow" | head
+## top 
+- Used to display dynamic real time information about running processes in your machine
+
