@@ -91,3 +91,7 @@
 - Every file/directory in linux has an owner
 - This command is used to change the owner of the file or directory
 - The owner of a directory/ file or the root user are eligible to use this command
+- sudo chown astro test.txt - Transferring the file ownership to astro
+- chown -R <owner> <file> - Changing the ownership of a directory and all other files in it.
+- chown <owner>:<group> <file> - Through this command,I can simulataneousy change the owner and the group of the file
+- chgrp <group> <file> - Directly changing the group of the file
