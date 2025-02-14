@@ -145,4 +145,16 @@ o = Others
 ps ax | grep -i "tensorflow" | head
 ## top 
 - Used to display dynamic real time information about running processes in your machine
+## kill
+- Linux processes can receive signals and react to them therefore we can interact with running programs
+- The kill command is used to terminate a program (kill <PID>). The PID is the process ID
+- We can use the kill command to send other signals apart from terminating a program as follows :  
+kill -HUP <PID> - hang up - It is sent automatically when a terminal window that started a process is closed before terminating the process  
+kill -INT <PID> - interrupt - It sends the same signal used when we press ctrl - c in the terminal, which usually terminates the process  
+kill -KILL <PID> - This is not sent to the process, but to the operating system which immediately stops but not terminate the process  
+kill -TERM <PID> - terminate - Its the default signal sent by kill  
+kill -CONT <PID> - continue - Used to resume a stopped process  
+kill -STOP <PID> - stop is sent to the operating system kernel which immediately stops but does not terminate the process  
+- You might see numbers used instead, like kill -1 <PID>. In this case,
 
+1 corresponds to HUP. 2 corresponds to INT. 9 corresponds to KILL. 15 corresponds to TERM. 18 corresponds to CONT. 15 corresponds to STOP.
