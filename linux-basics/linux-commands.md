@@ -155,6 +155,48 @@ kill -KILL <PID> - This is not sent to the process, but to the operating system 
 kill -TERM <PID> - terminate - Its the default signal sent by kill  
 kill -CONT <PID> - continue - Used to resume a stopped process  
 kill -STOP <PID> - stop is sent to the operating system kernel which immediately stops but does not terminate the process  
-- You might see numbers used instead, like kill -1 <PID>. In this case,
-
-1 corresponds to HUP. 2 corresponds to INT. 9 corresponds to KILL. 15 corresponds to TERM. 18 corresponds to CONT. 15 corresponds to STOP.
+- You might see numbers used instead, like kill -1 <PID>. In this case,1 corresponds to HUP. 2 corresponds to INT. 9 corresponds to KILL. 15 corresponds to TERM. 18 corresponds to CONT. 15 corresponds to STOP.
+## type
+- A command can be one of these 4 types :  
+an executable  
+a shell built-in program  
+a shell function  
+an alias
+- The type command is used to figure out the type of a command
+- type <command>
+# which 
+- This will return the path of the command specified
+# whoami
+- This command will print the user name currently logged into the terminal session
+# who
+- This command displays the users logged in to the system
+# su 
+- This command is used to switch to another user 
+- su <username> 
+# sudo
+- Used to run command as a root
+- You must be enabled to use sudo and once you are authorised, you can run commands as root by entering your user's password
+- You can use sudo to run commands as any user. root is the default but use the -u option to specify another user :  
+sudo -u astro ls /Users/flavio
+# passwd
+- Users in linux have a password assigned. You can change the password using the passwd command
+- When you want to change your password, you can type :  
+passwd
+- When you are root , you can set the username for which you want to change the password :  
+passwd <username> <new password>
+# ping
+- This command pings a specific network host, on the local network or on the internet
+- Syntax is ping <host> where <host> could be a domain name or an IP address
+- This command sends a request to the server and the server returns a response
+- ping keeps sending the request every second by default. It will keep running until you stop it with ctrl - c unless you pass the number of times you want to try with the -c option: ping -c google.com
+# clear
+- Used to clear all the previous commands that were run in the current terminal
+- The screen will clear
+# crontab 
+- Cron jobs are jobs that are scheduled to run at specific intervals. You might have a command perform something every hour, or every day, or every 2 weeks. Or on weekends.
+- They are very powerful, especially when used on servers to perform maintenance and automations.
+- crontab -l - exploring which cronjobs are defined by you
+#uname
+- This will return the Operating System codename eg Linux
+- uname -mp - The m option shows the hardware name and the p option prints the processor architecture
+- uname -a - This will print all the information available
