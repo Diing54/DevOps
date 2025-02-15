@@ -1,9 +1,9 @@
 
 2025-02-15 18:08
 
-Level : 
+Level : #child 
 
-Tags : [[linux]]
+Tags : [[Linux]]
 
 # Filesystems in linux
 
