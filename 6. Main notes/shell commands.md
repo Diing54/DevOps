@@ -3,7 +3,7 @@
 
 Level: #child
 
-Tags :
+Tags : [[linux]]
 
 
 ## ls
