@@ -1,0 +1,12 @@
+{
+  "file-explorer:new-file": [],
+  "workspace:new-tab": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ]
+}
