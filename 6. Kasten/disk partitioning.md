@@ -27,7 +27,16 @@ Tags :[[Linux]]
 - In the past, different types of hard drives had different names but this changed because of hotplug which is a new feature which unifies device management
 - lsblk - command for listing all the drives and partitions
 - df -h - command for viewing disk usage
-
+## MBR Partitions
+- Traditionally, a hard drive is made up of many platters. On each platter there are 512 byte sectors making up a track. Many tracks stacked on top of each other make the cylinder. Data is stored on these 512 byte sectors.
+- Nowadays , disks with 4k byte sectors are being manufactured for fast performance as compared to the old 512 bytes
+- In the past, computers described hard drives using **Cylinders, Heads, and Sectors (CHS)**.
+- Modern systems use **Logical Block Addressing (LBA)**, where every sector gets a number.
+- For huge hard drives, an advanced version called **LBA48** was introduced to handle more sectors.
+- Master Boot Record (MBR ) is the older partitioning system that supports up to 4 primary partitions and a maximum disk size of 2 terabytes.
+## GUID Partition Table (GUID) partitions
+- GPT (GUID Partition Table) is the newer standard, supporting up to 128 partitions by default and larger disk sizes. GPT was designed for use with a UEFI-based system
+- 
 
 
 ## References

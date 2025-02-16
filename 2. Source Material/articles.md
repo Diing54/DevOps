@@ -3,4 +3,5 @@
 3. Ssh essentials by Digital Ocean (https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys#ssh-overview)
 4. Linux boot process by Ian Shields (IBM Developer) (https://developer.ibm.com/tutorials/l-lpic1-101-2/)
 5. Disk partitioning by Ian Shields(IBM Developer) (https://developer.ibm.com/tutorials/l-lpic1-102-1/)
+6. 
 
