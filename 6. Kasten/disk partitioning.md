@@ -38,7 +38,6 @@ Tags :[[Linux]]
 - Master Boot Record (MBR ) is the older partitioning system that supports up to 4 primary partitions and a maximum disk size of 2 terabytes.
 ## GUID Partition Table (GUID) partitions
 - GPT (GUID Partition Table) is the newer standard, supporting up to 128 partitions by default and larger disk sizes. GPT was designed for use with a UEFI-based system
-- 
 
 
 ## References
