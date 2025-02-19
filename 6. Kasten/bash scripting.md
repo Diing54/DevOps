@@ -11,7 +11,15 @@ Tags :
 A bash script is a file containing lines of code either simple commands or complex ones that can either navigate directories or create other stuff ; in simple words they can do a series of actions. Basically they can run bash commands eg ls , mkdir, ps, grep ,touch ,rm etc. A bash script can be executed and the lines of code inside it will be run line by line.
 
 # Advantages of bash scripting 
-
+1. Automation - Shell scripts allow a user to automate repetitive tasks hence saving on time and minimizing the risk of human error
+2. Portability -  Can run on various OS including windows through VM's
+3. HIghly flexible as they can be customized easily
+4. Easy to write as they require any special software
+5. Integration - Shell scripts can be integrated with other tools and applications and cloud services allowing for more complex automation and system management tasks
+6. Debugging - They are easy to debug and most of them have built-in debugging and error-reporting tools
+- NOTE : Shell is a program responsible for displaying of an interface for interacting the OS(CLI- Command Line Interface). Bash is a type of shell
+## Creating and executing bash scripts
+- Bash scripts end with .sh
 
 
 
