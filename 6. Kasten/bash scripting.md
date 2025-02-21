@@ -20,8 +20,15 @@ A bash script is a file containing lines of code either simple commands or compl
 - NOTE : Shell is a program responsible for displaying of an interface for interacting the OS(CLI- Command Line Interface). Bash is a type of shell
 ## Creating and executing bash scripts
 - Bash scripts end with .sh
-
-
+- A bash script starts with a shebang. This is the first line which must be present in a script which specifies the interpreter that will be used when executing the script. This allows users to leverage the power of different interpreters. Shebang tells the shell to execute it via bash shell
+- An example of a shebang statement (#!/bin/bash)
+- ![[Pasted image 20250221094422.png]]
+- The read command reads the input and stores it in the variable path
+- The ls -al command takes the variable with the stored path and displays the details of the path
+- We can then run the script using the following commands :
+1. sh hello.sh
+2. bash hello.sh
+3. ./hello.sh
 
 
 ## References
