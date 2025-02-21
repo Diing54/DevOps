@@ -34,6 +34,15 @@ A bash script is a file containing lines of code either simple commands or compl
 1. sh hello.sh
 2. bash hello.sh
 3. ./hello.sh
+## Variables and data types 
+- Variables store data which can be read, accessed and manipulated eg : name=John
+- $ is required to access the variable's content
+- The naming conventions of a variable are :
+1. Variable names should start with a letter or an underscore (`_`).
+2. Variable names can contain letters, numbers, and underscores (_).
+3. Variable names are case-sensitive.
+4. Variable names should not contain spaces or special characters.
+
 
 
 ## References
