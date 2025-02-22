@@ -5,6 +5,8 @@ Level: #child
 
 Tags : [[Linux]]
 
+## Intro
+- When you type a command in the terminal, your system looks for the executable file in the directories listed in the $PATH variable. If a directory isn't in $PATH, you must specify the full path to run a script
 
 ## ls
 
