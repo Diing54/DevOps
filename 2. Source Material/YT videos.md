@@ -1,0 +1,1 @@
+1. Arch LInux Tutorial by Mischa (https://youtu.be/qboMuv9vSpQ?si=s_cn2aN4Bmmk49VA)
