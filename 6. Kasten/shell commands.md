@@ -12,7 +12,11 @@ Tags : [[Linux]]
 
 - This command is used when listing all the files that are inside a container.
 - It has several combinations such as -al which returns more detailed information about the files inside a particular folder.
-
+## lsblk
+- This command will show the disks and their partitions info of your pc
+# cat
+- This command is used to show the contents of a file eg  
+     cat /etc/systemd/network.sh 
 ## cd
 
 - The change directory command makes it possible for you to move inside a specified path/folder.
@@ -200,6 +204,8 @@ Tags : [[Linux]]
 - ps ax - "a" will list other users' processes apart from yours and "x" will show other processes not linked to any terminal
 - You can search for a specific process combining grep with a pipe as shown below :  
     ps ax | grep -i "tensorflow" | head
+# pstree
+- Command for displaying processes running on your system in a tree structure 
 
 ## top
 
@@ -231,7 +237,9 @@ Tags : [[Linux]]
 # which
 
 - This will return the path of the command specified
-
+# man (manual)
+- This command is used to display information about the specified command eg 
+- man which 
 # whoami
 
 - This command will print the user name currently logged into the terminal session
