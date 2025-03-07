@@ -49,3 +49,5 @@ A bash script is a file containing lines of code either simple commands or compl
 
 
 ## References
+
+ Bash scripting by freecodecamp (https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
