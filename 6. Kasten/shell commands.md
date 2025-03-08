@@ -5,6 +5,11 @@ Level: #child
 
 Tags : [[Linux]]
 
+Use any of the following options to get more information about linux commands:
+man commandName
+info commandName
+commandName -h
+commandName --help
 ## Intro
 - When you type a command in the terminal, your system looks for the executable file in the directories listed in the $PATH variable. If a directory isn't in $PATH, you must specify the full path to run a script
 
