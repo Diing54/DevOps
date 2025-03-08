@@ -37,6 +37,9 @@ A bash script is a file containing lines of code either simple commands or compl
 1. sh hello.sh
 2. bash hello.sh - These commands(sh hello.sh) must be specified with the directory of the bash script if not in the bash script directory
 3. ./hello.sh - ./ tells the bash to execute hello.sh in the current working directory. We can use hello.sh to execute the bash script while on any directory of the terminal if the path of the script file is added to the $PATH variable
+4. . hello.sh 
+     When a script is executed using either the bash command or the dot (.) command, you do not have to set executable
+permissions on script but read permissions need to be set.
 ## Variables and data types 
 - Variables store data which can be read, accessed and manipulated eg : name=John
 - $ is required to access the variable's content
