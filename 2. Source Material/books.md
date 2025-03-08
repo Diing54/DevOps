@@ -1,1 +1,2 @@
 1. The Linux Command Line by William Shotts (https://archive.org/details/2016TheLinuxCommandLine/page/14/mode/2up?view=theater) 
+2. Linux Shell Scripting Tutorial - A Beginner's handbook" (http://bash.cyberciti.biz/guide/Main_Page), and nixCraft (http://nixcraft.com/)
