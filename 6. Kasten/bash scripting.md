@@ -53,13 +53,14 @@ permissions on script but read permissions need to be set.
 ## Command line Arguments
 - Command line arguments allow users to pass data to a bash script at runtime, These arguments are accessible inside the script using special variables.
 - The command line arguments are stored in special variables:
-     $0  = The name of the script
-     $1, $2, $3, ....... = First, second, third argument respectively etc
-     $# - Total number of arguments passed to the bash script
-     $@ - All the arguments supplied to the bash script
-     $ $ - The process ID of the current script
-     $USER - The username of the user running the script
-     $HOSTNAME - The hostname of the machine the script is running on
+     - $0  = The name of the script
+     - $1, $2, $3, ....... = First, second, third argument respectively etc
+     - $# - Total number of arguments passed to the bash script
+     - $@ - All the arguments supplied to the bash script
+     - $ $ - The process ID of the current script
+     - $USER - The username of the user running the script
+     - $HOSTNAME - The hostname of the machine the script is running on.
+     
      
 ## Quotes
 - We use quotes to enclose the values being assigned to a variable if we are working with complex values or values with spaces between. If we dont use quotes eg var=Hello World, there will be an error because by default, bash uses space for separate items.
