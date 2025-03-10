@@ -42,15 +42,34 @@ A bash script is a file containing lines of code either simple commands or compl
 permissions on script but read permissions need to be set.
 ## Variables and data types 
 - Variables store data which can be read, accessed and manipulated eg : name=John
+- We can also set a variable to a path of a particular directory as shown below
+     path=/etc
 - $ is required to access the variable's content
 - The naming conventions of a variable are :
 1. Variable names should start with a letter or an underscore (`_`).
 2. Variable names can contain letters, numbers, and underscores (_).
 3. Variable names are case-sensitive.
 4. Variable names should not contain spaces or special characters.
+## Command line Arguments
+- Command line arguments allow users to pass data to a bash script at runtime, These arguments are accessible inside the script using special variables.
+- The command line arguments are stored in special variables:
+     $0  = The name of the script
+     $1, $2, $3, ....... = First, second, third argument respectively etc
+     $# - Total number of arguments passed to the bash script
+     $@ - All the arguments supplied to the bash script
+     $ $ - The process ID of the current script
+     $USER - The username of the user running the script
+     $HOSTNAME - The hostname of the machine the script is running on
+     
+## Quotes
+- We use quotes to enclose the values being assigned to a variable if we are working with complex values or values with spaces between. If we dont use quotes eg var=Hello World, there will be an error because by default, bash uses space for separate items.
+ 
+
 
 
 
 ## References
 
  Bash scripting by freecodecamp (https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
+
+  https://ryanstutorials.net/bash-scripting-tutorial/
