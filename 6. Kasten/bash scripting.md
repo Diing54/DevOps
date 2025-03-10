@@ -60,6 +60,15 @@ permissions on script but read permissions need to be set.
      - $ $ - The process ID of the current script
      - $USER - The username of the user running the script
      - $HOSTNAME - The hostname of the machine the script is running on.
+- Example showcasing command line arguments:
+  ![image](https://github.com/user-attachments/assets/f7eed79e-a831-4839-b5fb-fd7b392a16b1)
+
+  ![image](https://github.com/user-attachments/assets/c78722de-96a5-4b14-82c3-723f6fa77d19)
+
+  ![image](https://github.com/user-attachments/assets/335dda0c-1c25-4217-8a55-29e7fc022d26)
+
+  
+
      
      
 ## Quotes
