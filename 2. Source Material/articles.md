@@ -6,4 +6,5 @@
 6. Bash scripting by freecodecamp (https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
 7. Arch Wiki - Arch Linux documentation by the community (https://wiki.archlinux.org/title/Main_page)
 8. Linux Professional Institute Learning Materials (https://learning.lpi.org/en/learning-materials/101-500/)
+9. https://ryanstutorials.net/bash-scripting-tutorial/
 
