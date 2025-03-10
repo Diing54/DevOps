@@ -12,7 +12,8 @@ commandName -h
 commandName --help
 ## Intro
 - When you type a command in the terminal, your system looks for the executable file in the directories listed in the $PATH variable. If a directory isn't in $PATH, you must specify the full path to run a script
-
+## env 
+- This command will show special variables
 ## ls
 
 - This command is used when listing all the files that are inside a container.
