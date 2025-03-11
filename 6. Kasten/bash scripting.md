@@ -75,7 +75,10 @@ permissions on script but read permissions need to be set.
 - We use quotes to enclose the values being assigned to a variable if we are working with complex values or values with spaces between. If we dont use quotes eg var=Hello World, there will be an error because by default, bash uses space for separate items.
 - Commands work in the same way in the command line as they work in a script so we can just work in the command line for easier demonstration.
 - We enclose content in quotes so bash can consider it as a single item. We can use single quotes or double quotes
-- Single quotes will treat every character literally while double quotes may allow us to include other variables as part of the value as shown below
+- Single quotes will treat every character literally while double quotes may allow us to include other variables as part of the value as shown below :
+  
+  ![image](https://github.com/user-attachments/assets/4cbf654a-9657-4b6f-96b9-36526118e35a)
+
  
 
 
