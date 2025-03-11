@@ -79,9 +79,8 @@ permissions on script but read permissions need to be set.
   
   ![image](https://github.com/user-attachments/assets/4cbf654a-9657-4b6f-96b9-36526118e35a)
 
- 
-
-
+## Command Substitution
+This allows us to take the output of a command or program and save it as a value of a variable 
 
 
 ## References
