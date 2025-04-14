@@ -1,4 +1,4 @@
-
+ 
 2025-02-15 15:14
 
 Level : #baby
@@ -81,8 +81,6 @@ permissions on script but read permissions need to be set.
 
 ## Command Substitution
 This allows us to take the output of a command or program and save it as a value of a variable 
-![image](https://github.com/user-attachments/assets/8b4239bb-40ff-4128-8c83-64ccaf5d6b7f)
-
 
 
 ## References
