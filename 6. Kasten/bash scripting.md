@@ -83,6 +83,7 @@ permissions on script but read permissions need to be set.
 This allows us to take the output of a command or program and save it as a value of a variable 
 ![Screenshot_2025-04-14_18-23-51](https://github.com/user-attachments/assets/a589920f-453b-4ce9-8c92-368e836fb924)
 
+## Exporting Variables
 
 
 ## References
