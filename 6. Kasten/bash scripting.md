@@ -84,7 +84,19 @@ This allows us to take the output of a command or program and save it as a value
 ![Screenshot_2025-04-14_18-23-51](https://github.com/user-attachments/assets/a589920f-453b-4ce9-8c92-368e836fb924)
 
 ## Exporting Variables
-
+When you run a shell script e.g. bash hello.sh, it starts a new  process that is separate from the shell you are currently in. Its like opening a new mini terminal behind the scenes to run that script.
+Each process in Linux has its own memory - and variables live in memory - so a variable in your current shell won't automatically be visible to that new process.
+"Variables are limited to the process they were created in".
+### Example
+##### script1.sh
+myname="Chiman"
+bash script2.sh
+##### script2.sh
+echo "Hello $myname"
+When you run `script1.sh`, it starts a new process (`script2.sh`). But unless `myname` is **exported**, `script2.sh` will print nothing because it doesn't know `myname` exists.
+To solve this problem we need to export the variable; 
+export myname="Chiman"
+bash script2.sh
 
 ## References
 
