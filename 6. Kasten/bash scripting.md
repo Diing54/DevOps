@@ -98,6 +98,10 @@ To solve this problem we need to export the variable;
 export myname="Chiman"
 bash script2.sh
 
+## Input
+The read command takes user input and saves it into a variable.
+
+
 ## References
 
  Bash scripting by freecodecamp (https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
