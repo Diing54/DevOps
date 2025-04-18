@@ -100,6 +100,8 @@ bash script2.sh
 
 ## Input
 The read command takes user input and saves it into a variable.
+![Screenshot From 2025-04-18 20-16-46](https://github.com/user-attachments/assets/ba466b7c-6b83-45dc-a551-388af24c59af)
+
 
 
 ## References
