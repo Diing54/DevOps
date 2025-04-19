@@ -110,10 +110,108 @@ You can use the -p option which allows you to specify the kind of input the user
 (Will comeback to this when learning pipes)
 
 ## Arithmetic
+Bash supports several ways to do arithmetic.
+1. let
+2. expr
+3. Double parentheses (( ))
+4. Length of a variable ${#var} - useful for strings
+### Let - A basic built-in command 
+let a=5+4         # No spaces allowed unless in quotes
+echo $a           # 9
+
+let "a = 5 + 4"   # You can use quotes to allow spaces
+echo $a           # 9
+
+let a++           # Increment a by 1
+echo $a           # 10
+
+let "a = 4 * 5"   # Multiplication
+echo $a           # 20
+
+let "a = $1 + 30" # Use a command-line argument
+
+| Operator | Meaning                             |
+| -------- | ----------------------------------- |
+| `+`      | Addition                            |
+| `-`      | Subtraction                         |
+| `*`      | Multiplication (use `\*` in `expr`) |
+| `/`      | Division                            |
+| `%`      | Modulus (remainder)                 |
+| `var++`  | Increment by 1                      |
+| `var--`  | Decrement by 1                      |
+### expr - Print results and does not store
+
+expr item1 operator item2
+
+expr 5 + 4        # Outputs: 9
+expr "5 + 4"      # Wrong: Just prints the string
+expr 5+4          # Wrong: No spaces = no evaluation
+expr 5 \ * 4       # Right: Use \ * to escape the multiplication symbol
+expr 11 % 2       # Outputs: 1
+
+a=$(expr 10 - 3)  # Store result into variable a
+echo $a           # 7
+
+### ((  )) - Recommended way to do arithmetic
+
+variable=$((expression))
+
+(( expression ))  # For in-place operations like incrementing
+
+a=$((4 + 5))      # 9
+echo $a
+
+a=$((3+5))        # 8
+b=$((a + 3))      # 11
+b=$(( $a + 4 ))   # 12
+
+(( b++ ))         # Increment b by 1 => 13
+(( b += 3 ))      # b = b + 3 => 16
+a=$(( 4 * 5 ))    # 20
+
+### `${#variable}` – Get String Length
+
+a="Hello World"
+echo ${#a}   # 11
+
+b=4953
+echo ${#b}   # 4
+
+## If Statements
+If statements help the script to make decisions ;
+if [ <some test> ]
+then
+    <commands>
+fi
+
+#!/bin/bash
+# Basic if statement
+if [ $1 -gt 100 ]
+then
+    echo Hey that\'s a large number.
+    pwd
+fi
+date
+
+- `$1` is the **first command-line argument**.
+    
+- `-gt` means **greater than**.
+    
+- If `$1` is greater than 100:
+    
+    - It prints a message.
+        
+    - Shows current directory (`pwd`).
+        
+- `fi` marks the **end** of the if statement.
+    
+- `date` runs no matter what.
+
+In `[ $1 -gt 100 ]`, the square brackets `[` `]` are a way to call the `test` command.
+Common test operators:
 
 
 ## References
-
  Bash scripting by freecodecamp (https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
 
   https://ryanstutorials.net/bash-scripting-tutorial/
