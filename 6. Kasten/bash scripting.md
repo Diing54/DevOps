@@ -102,6 +102,14 @@ bash script2.sh
 The read command takes user input and saves it into a variable.
 ![Screenshot From 2025-04-18 20-16-46](https://github.com/user-attachments/assets/ba466b7c-6b83-45dc-a551-388af24c59af)
 
+You can use the -p option which allows you to specify the kind of input the user should enter and also -s which makes the input silent, e.g. prompting a user their username and password
+1. read -p 'Username: ' uservar
+2. read -sp 'Password: ' passvar
+## STDIN / STDOUT / STDERR
+
+(Will comeback to this when learning pipes)
+
+## Arithmetic
 
 
 ## References
