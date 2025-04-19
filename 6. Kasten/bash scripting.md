@@ -207,8 +207,23 @@ date
     
 - `date` runs no matter what.
 
+./if_example.sh 15     # Only date will be printed
+./if_example.sh 150    # Message, directory, and date will be printed
+
+
 In `[ $1 -gt 100 ]`, the square brackets `[` `]` are a way to call the `test` command.
-Common test operators:
+Common test operators;
+! EXPRESSION | Not true
+-n STRING | String is not empty
+-z STRING | String is empty
+STRING1 = STRING2 | Strings are equal
+STRING1 != STRING2 | Strings are not equal
+INT1 -eq INT2 | Equal numbers
+INT1 -gt INT2 | Greater than
+-e FILE | File exists
+-s FILE | File exists and is not empty
+-x FILE | File exists and is executable
+
 
 
 ## References
