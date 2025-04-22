@@ -3,7 +3,7 @@
 
 Level : #baby
 
-Tags :
+Tags : [[Linux]]
 
 # Bash Scripting
 
