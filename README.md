@@ -1,5 +1,6 @@
-# DevOps Learning Journey 🚀
+# DevOps 
 This repository contains my notes, summaries, and experiences as I learn DevOps in a Linux environment.
 
-## Roadmap
-1. Linux Basics
+## Linux Roadmap
+
+![Linux Roadmap](./Excalidraw/mylinux_roadmap.svg)
