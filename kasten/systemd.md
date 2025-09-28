@@ -4,7 +4,7 @@
 
 Level : 
 
-Tags : [[Linux]]
+Tags : [[linux]]
 
 # systemd
 

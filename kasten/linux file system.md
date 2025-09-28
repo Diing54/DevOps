@@ -3,7 +3,7 @@
 
 Level : #child 
 
-Tags : [[Linux]]
+Tags : [[linux]]
 
 # Filesystems in linux
 

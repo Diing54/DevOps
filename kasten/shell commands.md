@@ -3,7 +3,7 @@
 
 Level: #child
 
-Tags : [[Linux]]
+Tags : [[linux]]
 
 Use any of the following options to get more information about linux commands:
 man commandName

@@ -3,7 +3,7 @@
 
 Level : 
 
-Tags :[[Linux]]
+Tags :[[linux]]
 
 # disk partitioning
 

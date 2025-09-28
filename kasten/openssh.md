@@ -1,9 +1,9 @@
 
 2025-02-15 22:53
 
-Level : 
+Level : #child 
 
-Tags : [[Linux]] ,[[security]] 
+Tags : [[linux]] ,[[security]] 
 
 # openssh
 OpenSSH (Open Secure Shell) is a free, open-source toolset that allows for secure remote login and other secure network services over an insecure network i.e. the internet. It encrypts all traffic during a session and guarantees the integrity of data transfer

@@ -3,7 +3,7 @@
 
 Level : 
 
-Tags :[[Linux]]
+Tags :[[linux]]
 
 # linux boot process
 
