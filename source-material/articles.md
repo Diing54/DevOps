@@ -7,4 +7,5 @@
 7. Arch Wiki - Arch Linux documentation by the community (https://wiki.archlinux.org/title/Main_page)
 8. Linux Professional Institute Learning Materials (https://learning.lpi.org/en/learning-materials/101-500/)
 9. https://ryanstutorials.net/bash-scripting-tutorial/
+10. https://www.geeksforgeeks.org/computer-networks/open-systems-interconnection-model-osi/
 
