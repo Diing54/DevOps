@@ -59,7 +59,7 @@ Tags : [[networking]], [[linux]]
 - Step 7: At Physical Layer, Frames are transmitted in the form of electrical/ optical signals over a physical network medium like ethernet cable or WiFi.
 
 ### Ports
-
+- These are communication endpoints that allow different services on a device to send and receive data.
 
 
 
