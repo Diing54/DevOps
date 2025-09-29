@@ -58,6 +58,7 @@ Tags : [[networking]], [[linux]]
 - Step 6: At Data Link Layer, data packets are encapsulated into frames, then MAC address is added for local devices and then it checks for error using error detection.
 - Step 7: At Physical Layer, Frames are transmitted in the form of electrical/ optical signals over a physical network medium like ethernet cable or WiFi.
 
+### Ports
 
 
 
