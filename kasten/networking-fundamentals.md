@@ -61,6 +61,20 @@ Tags : [[networking]], [[linux]]
 ### Ports
 - These are communication endpoints that allow different services on a device to send and receive data.
 
+| Port Number     |Service          |
+|-----------------|-----------------|
+| 20              | File Transfer Protocol|
+| 21              | File Transfer Protocol|
+| 22              | Secure Shell (SSH) Secure login|
+| 23              | Telnet Remote Login|
+| 25              | Simple Mail Transfer Protocol|
+| 53              | Domain Name System (DNS) Service|
+| 80              | Hypertext Transfer Protocol (HTTP)|
+| 110             | Post Office Protocol(POP3)|
+| 123             | Network Time Protocol (NTP)
+| 143             | Internet Message Access Protocol(IMAP)|
+| 161             | Simple Network Management Protocol(SNMP)|
+| 443             | HTTP Secure(HTTPS)
 
 
 
