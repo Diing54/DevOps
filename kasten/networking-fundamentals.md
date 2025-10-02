@@ -59,24 +59,28 @@ Tags : [[networking]], [[linux]]
 - Step 7: At Physical Layer, Frames are transmitted in the form of electrical/ optical signals over a physical network medium like ethernet cable or WiFi.
 
 ### Ports
-- These are communication endpoints that allow different services on a device to send and receive data.
+- These are communication endpoints that allow different services on a device to send and receive data. Each port is associated with a specific service or process.The use of ports helps computers understand what to do with the data they receive.
 
-| Port Number     |Service          |
-|-----------------|-----------------|
-| 20              | File Transfer Protocol|
-| 21              | File Transfer Protocol|
-| 22              | Secure Shell (SSH) Secure login|
-| 23              | Telnet Remote Login|
-| 25              | Simple Mail Transfer Protocol|
-| 53              | Domain Name System (DNS) Service|
-| 80              | Hypertext Transfer Protocol (HTTP)|
-| 110             | Post Office Protocol(POP3)|
-| 123             | Network Time Protocol (NTP)
-| 143             | Internet Message Access Protocol(IMAP)|
-| 161             | Simple Network Management Protocol(SNMP)|
-| 443             | HTTP Secure(HTTPS)
+Suppose Bob transfers an MP3 audio recording to Alice using the File Transfer Protocol (FTP). If Alice's computer passed the MP3 file data to Alice's email application, the email application would not know how to interpret it. But because Bob's file transfer uses the port designated for FTP (port 21), Alice's computer is able to receive and store the file.
 
+| Port Number | Service                                  |
+| ----------- | ---------------------------------------- |
+| 20          | File Transfer Protocol                   |
+| 21          | File Transfer Protocol                   |
+| 22          | Secure Shell (SSH) Secure login          |
+| 23          | Telnet Remote Login                      |
+| 25          | Simple Mail Transfer Protocol (SMTP)     |
+| 53          | Domain Name System (DNS) Service         |
+| 80          | Hypertext Transfer Protocol (HTTP)       |
+| 110         | Post Office Protocol(POP3)               |
+| 123         | Network Time Protocol (NTP)              |
+| 143         | Internet Message Access Protocol(IMAP)   |
+| 161         | Simple Network Management Protocol(SNMP) |
+| 443         | HTTP Secure(HTTPS)                       |
 
+### Subnetting
+- This is the process of dividing a large network into smaller, more manageable subnetworks.  
 
 ## References
 1. https://www.geeksforgeeks.org/computer-networks/open-systems-interconnection-model-osi/
+2. https://www.cloudflare.com/en-in/learning/network-layer/what-is-a-computer-port/
